@@ -1,122 +1,254 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>TK FANTASTIC HF SERIES</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Century Gothic">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FANTASTIC UTF SERIES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Century Gothic">
+    <link rel="stylesheet" href="file:///C|/Users/jhui1/Downloads/2126_antique_cafe/css/all.min.css"> <!-- fontawesome -->
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="file:///C|/Users/jhui1/Downloads/2126_antique_cafe/css/tailwind.css">
+    <link rel="stylesheet" href="file:///C|/Users/jhui1/Downloads/2126_antique_cafe/css/tooplate-antique-cafe.css">
 	<link rel="shortcut icon" href="IMG/fantastic logo 2.jpg" width="100%">
-<style>
-body,h1,h5 {font-family: "Century Gothic", sans-serif}
+    <style>
+body,h1,h2,h3,h4,h5,p {font-family: "Century Gothic", sans-serif}
 body, html {height: 100%}
-.bgimg {
-  background-image: url('IMG/utfseries.jpg');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-	}
-a:link {
-  background-color: transparent;
-  text-decoration: none;
- cursor: pointer;
+
 }
 
 </style>
+<!--
+
+Tooplate 2126 Antique Cafe
+
+https://www.tooplate.com/view/2126-antique-cafe
+
+-->
 </head>
-<body>
-
-<div class="bgimg w3-display-container w3-text-white">
-  <div class="w3-display-topleft w3-container w3-xlarge">
-    <p><button onclick="document.getElementById('menu').style.display='block'" style="background-color: #019dd8; width: 160px; height: 50px">Information</button></p>
-    <p><button onclick="document.getElementById('contact').style.display='block'" style="background-color: #bfd7ef; width: 160px; height: 50px">Contact Us</button></p>
-  </div>
-</div>
-
-<!-- Menu Modal -->
-<div id="menu" class="w3-modal"  >
-  <div class="w3-modal-content w3-animate-zoom">
-    <div class="w3-container w3-display-container " style="background-color:#019dd8;">
-      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large" style="background-color:#019dd8; ">x</span>
-      <h2>GENERAL</h2>
+<body>    
+    <!-- Intro -->
+    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="IMG/utfseries.jpg" >
     </div>
-    <div class="w3-container" style="background-color:#bfd7ef;">
-      <h5>Model <b>HF Series - 24</b></h5>
-      <h5>Fan Diameter <b>24 ft (7.2m)</b></h5>
-      <h5>Color <b>Airfoil : Black, Winglet: Orange</b></h5>
-      <h5>Airfoil Material <b>Aluminium</b></h5>
-      <h5>Number of Airfoils <b>5</b></h5>
-      <h5>Weight&#185; <b>69kg</b></h5>
+    <!-- Cafe Menu -->
+    <div id="menu" class="parallax-window" data-parallax="scroll" style="background-color: #bfd7ef;">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="text-center mb-16">
+                <h1 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">UTF SERIES</h1>
+            </div>            
+            <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-item-container" style="background-color: white;">
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <div class="ml-3 sm:ml-6">
+                            <h1 class="text-lg sm:text-xl mb-2 sm:mb-3" style="color: black; font-size: 30px;"><b>UTF - 10</b></h1>
+                            <div class=" text-md sm:text-lg font-MEDIUM mb-1"> <h1><b>GENERAL</b></h1>
+								
     </div>
-    <div class="w3-container" style="background-color:#019dd8;">
-      <h2>POWER &amp; Controls</h2>
-    </div>
-    <div class="w3-container" style="background-color:#bfd7ef;">
-      <h5>Power Source <b>220~240 VAC, 1&#8709; , 50-60Hz</b></h5>
-      <h5>Control <b>Control Panel</b></h5>
-    </div>
-    <div class="w3-container" style="background-color:#019dd8;">
-      <h2>MOTOR</h2>
-    </div>
-    <div class="w3-container" style="background-color:#bfd7ef;">
-      <h5>Motor Type <b>PMSM (Permanent Magnet Synchronous Motor) </b></h5>
-      <h5>Operational Temperature Range <b> 0 &#8451;~80 &#8451;</b></h5>
-    </div>
-  <div class="w3-container" style="background-color:#019dd8;">
-      <h2>PERFORMANCE </h2>
-    </div>
-    <div class="w3-container" style="background-color:#bfd7ef;">
-      <h5>Speed (mix/max) <b>25/55 RPM</b></h5>
-      <h5>Rated Current <b>3.8A</b></h5>
-      <h5>Power Consumption (mix/max) <b>660W</b></h5>
-      <h5>Airflow <b>14,900 m&#179;/ h</b></h5>
-      <h5>Noise (dBA) <b> &#8826;35 dBA </b></h5>
-    </div>
-    <div class="w3-container" style="background-color:#019dd8;">
-      <h2>MOUNTING </h2>
-    </div>
-    <div class="w3-container" style="background-color:#bfd7ef;">
-      <h6>Mounting Options <b>I-Beam, Concrete Beam, Square/ Rectangular Hollow and Circular Hollow Section</b></h6>
-    </div>
-    <div class="w3-container" style="background-color:#019dd8;">
-      <h2>RANTING &amp; CERTIFICATIONS </h2>
-    </div>
-    <div class="w3-container" style="background-color:#bfd7ef;">
-      <h5>Environment <b>Indoor / Outdoor&nbsp;&#179;</b></h5>
-      <h5>Certifications <b>CE</b></h5>
-    </div>
-    <div class="w3-container" style="background-color:#019dd8;">
-      <h2>DIMENSIONS </h2>
+    <div class="w3-container" >
+		<h5>Fan Diameter <b>: 9.84 ft (3.0m)</b></h5>
+	    <h5>Color <b>: Airfoil : Silver, Winglet : Black</b></h5>
+		<h5>Airfoil Material <b>: Aluminium</b></h5>
+		<h5>Number of Airfoils <b>：7</b></h5>
+		<h5>Number of Fan Speed <b>: 6</b></h5>
+		<h5>Fan Weight <b>: 20kg</b></h5></div>
+                        </div>                    
+                    </div>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <div class="ml-3 sm:ml-6">
+                            <div class=" text-md sm:text-lg font-medium mb-1"> <h1><b>POWER &amp; CONTROLS</b></h1>
+								
     </div>
     <div class="w3-container">
-      <img src ="IMG/扫描全能王 2023-12-05 18.48.jpg" width="101%">
+		<h5>Power Source <b>: 200 - 240 VAC, 1&#8709;, 50-60 Hz</b></h5>
+	    <h5>Control <b>: Remote Control</b></h5></div>
+                        </div>                    
+                    </div>
+	  <div class="flex items-start mb-6 tm-menu-item">
+                        <div class="ml-3 sm:ml-6">
+                            <div class="text-md sm:text-lg font-medium mb-1"> <h1><b>MOTOR</b></h1>
+								
     </div>
-     </div>
-</div>
+    <div class="w3-container">
+		<h5>Motor Type <b>: BLDC Direct Drive Motor</b></h5>
+	    <h5>Operational Temperature Range <b>: -10&#8451; ~ 50&#8451;</b></h5></div>
+                        </div>                    
+                    </div>
+	<div class="flex items-start mb-6 tm-menu-item">
+                        <div class="ml-3 sm:ml-6">
+                            <div class="text-md sm:text-lg font-medium mb-1"> <h1><b>PERFORMANCE &#185;</b></h1>
+								
+    </div>
+    <div class="w3-container">
+		<h5>Speed (min/max) <b>: 30/70 RPM</b></h5>
+	    <h5>Pated Current (mix/max) <b>: 0.1 / 0.71A</b></h5>
+		<h5>Power Consumption (mix/max) <b>: 8 / 84W</b></h5>
+	    <h5>Max Airflow <b>: 47,538m&#179;/h   |  28,000 CFM</b></h5>
+		<h5>Noise (dBA) <b>: &#139; 35dBA </b></h5></div>
+                        </div>                    
+                    </div>
+	<div class="flex items-start mb-6 tm-menu-item">
+                        <div class="ml-3 sm:ml-6">
+                            <div class="text-md sm:text-lg font-medium mb-1"> <h1><b>MOUNTING</b></h1>
+								
+    </div>
+    <div class="w3-container">
+		<h5>Mounting Options <b>: I-Beam / Glulam</b></h5>
+	    <h5>Extension Tube <b>: 525 mm</b></h5>
+		</div>
+                        </div>                    
+                    </div>
+	<div class="flex items-start mb-6 tm-menu-item">
+                        <div class="ml-3 sm:ml-6">
+                            <div class="text-md sm:text-lg font-medium mb-1"> <h1><b>RATING &amp; CERTIFICATIONS</b></h1>
+								
+    </div>
+    <div class="w3-container">
+		<h5>Environment <b>: Indoor / Outdoor &#178;</b></h5>
+	    <h5>Extension Tube <b>: 525 mm</b></h5>
+		</div>
+                        </div>                    
+                    </div>
+	<div class="flex items-start mb-6 tm-menu-item">
+                        <div class="ml-3 sm:ml-6">
+                            <div class=" text-md sm:text-lg font-medium mb-1"> <h1><b>DIMENSION</b></h1>
+								<div class="w3-container"><img src="IMG/UTF-10.jpg" style="width: 100%;">
+		</div>
+								
+    </div>
+    <div class="w3-container">
+		
+		</div>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-item-container" style="background-color: white;">
+                  <div class="ml-3 sm:ml-6">
+                            <h1 class="text-lg sm:text-xl mb-2 sm:mb-3" style="color: black; font-size: 30px;"><b>UTF - 14</b></h1>
+                            <div class="text-md sm:text-lg font-medium mb-1"> <h1><b>GENERAL</b></h1>
+								
+    </div>
+                  <div class="w3-container">
+		<h5>Fan Diameter <b>: 14 ft (4.2m)</b></h5>
+	    <h5>Color <b>: Airfoil : Silver, Winglet : Black</b></h5>
+		<h5>Airfoil Material <b>: Aluminium</b></h5>
+		<h5>Number of Airfoils <b>：7</b></h5>
+		<h5>Number of Fan Speed <b>: 6</b></h5>
+		<h5>Fan Weight <b>: 35.44kg</b></h5></div>
+					  <br>
+					   <div class="text-md sm:text-lg font-MEDIUM mb-1"> <h1><b>POWER &amp; CONTROLS</b></h1>
+								
+    </div>
+                  <div class="w3-container">
+		<h5>Power Source <b>: 200 - 240 VAC, 1&#8709;, 50-60 Hz</b></h5>
+	    <h5>Control <b>: Remote Control</b></h5></div>
+					  <br>
+					   <div class="text-md sm:text-lg font-MEDIUM mb-1"> <h1><b>MOTOR</b></h1>
+								
+    </div>
+                  <div class="w3-container" >
+		<h5>Motor Type <b>: BLDC Direct Drive Motor</b></h5>
+	    <h5>Operational Temperature Range <b>: -10&#8451; ~ 50&#8451;</b></h5></div>
+					   <br>
+					   <div class="text-md sm:text-lg mb-1"> <h1><b>PERFORMANCE ¹</b></h1>
+								
+    </div>
+                  <div class="w3-container">
+		<h5>Speed (min/max) <b>: 30/56 RPM</b></h5>
+	    <h5>Pated Current (mix/max) <b>: 0.21 / 1.1A</b></h5>
+		<h5>Power Consumption (mix/max) <b>: 27 / 171W</b></h5>
+	    <h5>Max Airflow <b>: 131,673m&#179;/h   |  77,555 CFM</b></h5>
+		<h5>Noise (dBA) <b>: &#139; 40dBA </b></h5></div>
+					  <br>
+					   <div class="text-md sm:text-lg font-medium mb-1"> <h1><b>MOUNTING</b></h1>
+								
+    </div>
+                  <div class="w3-container" style="color: black;">
+		<h5>Mounting Options <b>: I-Beam / Glulam</b></h5>
+	    <h5>Extension Tube <b>: 1m</b></h5></div>
+					  <br>
+					   <div class="text-md sm:text-lg font-medium mb-1"> <h1><b>RATING &amp; CERTIFICATIONS</b></h1>
+								
+    </div>
+                  <div class="w3-container" style="color: black;">
+		<h5>Environment <b>: Indoor / Outdoor&#179;</b></h5>
+	    <h5>Certifications <b>: CE, CB</b></h5></div>
+					   <br>
+					   <div class="text-md sm:text-lg font-medium mb-1"> <h1><b>DIMENSION</b></h1>
+								<div class="w3-container"><img src="IMG/UTF-14 .jpg" style="width: 100%;"><br><br>
+		</div>
+    </div>
+		</div> 
+                </div>
+            </div>
+        </div>        
+    </div>
+     <div id="contact" class="parallax-window relative" data-parallax="scroll" style="background-color: #019dd8;">
+        <div class="container mx-auto tm-container pt-24 pb-20 sm:py-20">
+            <div class="flex flex-col lg:flex-row justify-around items-center lg:items-stretch">
+                <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white tm-item-container">
+                    <h2 class="text-3xl mb-6">Contact Us</h2>
+                    <p class="mb-10 text-lg">
+                        <span class="block mb-2">Tel : <a href="http://www.wasap.my/+601118769339" style="color: #019dd8;">01118769339</a></span>
+                        <span class="block">Facebook : <a href="http://www.facebook.com/tkfantastic" style="color: #019dd8;">TK FANTASTIC SDN BHD</a></span> 
+						<span class="block">Webside : <a href="http://www.facebook.com/tkfantastic" style="color: #019dd8;">TK FANTASTIC SDN BHD</a></span> 
+                    </p>                
+                </div>
+        </div>        
+		 </div> </div>   
 
-<!-- Contact Modal -->
-<div id="contact" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom">
-    <div class="w3-container" style="background-color:#019dd8;">
-      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
-      <h1>Contact Us</h1>
-    </div>
-     <form action="/action_page.php" style="background-color:#bfd7ef;">
-	<h4><b>&nbsp;&nbsp;&nbsp;&nbsp;Send us a message:</b></h4><br>
-			  <a href="https://www.wasap.my/+601118769339" target="_blank"> 
-     <i class="fa fa-whatsapp" style="font-size:25px;color:#075E54;margin-left: 20px">&nbsp;&nbsp;&nbsp;011-1876 9339</i>
-				  </a><br><br>
-		   <a href="https://www.facebook.com/tkfantastic" target="_blank"> 
-     <i class="fa fa-facebook-f" style="font-size:25px;color:#316FF6;margin-left: 20px" >&nbsp;&nbsp;&nbsp;&nbsp;TK FANTASTIC SDN BHD</i>
-				  </a><br><br>
-		   <a href="https://www.fantastic.my/" target="_blank"> 
-     <i class="fa fa-chrome" style="font-size:25px;margin-left: 20px">&nbsp;&nbsp;TK FANTASTIC SDN BHD</i>
-				  </a><br>
-     <br><br>
-      </form>
-    </div>
-  </div>
+
+    <script src="file:///C|/Users/jhui1/Downloads/2126_antique_cafe/js/jquery-3.6.0.min.js"></script>
+    <script src="file:///C|/Users/jhui1/Downloads/2126_antique_cafe/js/parallax.min.js"></script>
+    <script src="file:///C|/Users/jhui1/Downloads/2126_antique_cafe/js/jquery.singlePageNav.min.js"></script>
+    <script>
+
+        function checkAndShowHideMenu() {
+            if(window.innerWidth < 768) {
+                $('#tm-nav ul').addClass('hidden');                
+            } else {
+                $('#tm-nav ul').removeClass('hidden');
+            }
+        }
+
+        $(function(){
+            var tmNav = $('#tm-nav');
+            tmNav.singlePageNav();
+
+            checkAndShowHideMenu();
+            window.addEventListener('resize', checkAndShowHideMenu);
+
+            $('#menu-toggle').click(function(){
+                $('#tm-nav ul').toggleClass('hidden');
+            });
+
+            $('#tm-nav ul li').click(function(){
+                if(window.innerWidth < 768) {
+                    $('#tm-nav ul').addClass('hidden');
+                }                
+            });
+
+            $(document).scroll(function() {
+                var distanceFromTop = $(document).scrollTop();
+
+                if(distanceFromTop > 100) {
+                    tmNav.addClass('scroll');
+                } else {
+                    tmNav.removeClass('scroll');
+                }
+            });
+            
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 </html>
